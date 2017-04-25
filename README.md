@@ -1,6 +1,6 @@
 # npmtest-stream-to-buffer
 
-#### test coverage for  [stream-to-buffer (v0.1.0)](https://github.com/jonathanong/stream-to-buffer#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-stream-to-buffer.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-stream-to-buffer) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-stream-to-buffer.svg)](https://travis-ci.org/npmtest/node-npmtest-stream-to-buffer)
+#### basic test coverage for  [stream-to-buffer (v0.1.0)](https://github.com/jonathanong/stream-to-buffer#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-stream-to-buffer.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-stream-to-buffer) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-stream-to-buffer.svg)](https://travis-ci.org/npmtest/node-npmtest-stream-to-buffer)
 
 #### Concatenate a readable stream's data into a single buffer
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-stream-to-buffer/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-stream-to-buffer/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-stream-to-buffer/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-stream-to-buffer/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-stream-to-buffer/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-stream-to-buffer/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-stream-to-buffer/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-stream-to-buffer/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-stream-to-buffer/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-stream-to-buffer/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-stream-to-buffer/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-stream-to-buffer/build/coverage.html/index.html)
 
@@ -69,7 +69,8 @@
         "type": "git",
         "url": "git+https://github.com/jonathanong/stream-to-buffer.git"
     },
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "bin": {}
 }
 ```
 
